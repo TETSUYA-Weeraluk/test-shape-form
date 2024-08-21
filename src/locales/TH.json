@@ -14,5 +14,32 @@
   "text-button": {
     "move-shape": "เลื่อนรูปแบบ",
     "move-position": "เปลี่ยนตำแหน่ง"
+  },
+  "optionTitle": {
+    "MR": "นาย",
+    "MRS": "นาง",
+    "MS": "นางสาว"
+  },
+  "optionNationality": {
+    "TH": "ไทย",
+    "FR": "ฝรั่งเศส",
+    "US": "อเมริกัน"
+  },
+  "optionGender": {
+    "male": "ผู้ชาย",
+    "female": "ผู้หญิง",
+    "unsex": "ไม่ระบุ"
+  },
+  "form": {
+    "title": "คำนำหน้าชื่อ",
+    "firstName": "ชื่อจริง",
+    "lastName": "นามสกุล",
+    "birthday": "วันเกิด",
+    "nationality": "สัญชาติ",
+    "citizenId": "เลขบัตรประชาชน",
+    "gender": "เพศ",
+    "mobile": "หมายเลขโทรศัพท์มือถือ",
+    "passport": "หนังสือเดินทาง",
+    "expectedSalary": "เงินเดือนที่คาดหวัง"
   }
 }
