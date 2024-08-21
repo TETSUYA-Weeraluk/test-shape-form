@@ -143,17 +143,25 @@ const TestForm = () => {
     >
       <button onClick={setFill}>Test</button>
       <h1>{t("description.form&table")}</h1>
-      <div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
         <Form
           form={form}
           onFinish={onFinish}
           layout="horizontal"
           style={{
             maxWidth: "1024px",
+            border: "1px solid #000",
+            padding: "16px",
+            borderRadius: "8px",
           }}
         >
           <Row gutter={16}>
-            <Col span={4}>
+            <Col span={5}>
               <Form.Item
                 label={t("form.title")}
                 layout="horizontal"
@@ -164,6 +172,7 @@ const TestForm = () => {
                 rules={[{ required: true, message: "Please select!" }]}
               >
                 <Select
+                  placeholder={t("form.title")}
                   options={optionsTitle}
                   value={title}
                   onChange={(e) => setTitle(e)}
@@ -184,7 +193,7 @@ const TestForm = () => {
               </Form.Item>
             </Col>
 
-            <Col span={10}>
+            <Col span={9}>
               <Form.Item
                 label={t("form.lastName")}
                 name="lastName"
@@ -227,7 +236,10 @@ const TestForm = () => {
                 }}
                 rules={[{ required: true, message: "Please input!" }]}
               >
-                <Select options={optionNationality}></Select>
+                <Select
+                  placeholder="- - Please Select - -"
+                  options={optionNationality}
+                ></Select>
               </Form.Item>
             </Col>
           </Row>
