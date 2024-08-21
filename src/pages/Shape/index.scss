@@ -1,0 +1,80 @@
+$primary-color: #6eda78;
+$secondary-color: #ffa200;
+
+.button-shape {
+  background: #fff;
+  border: none;
+  width: 100%;
+  padding: 32px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 16px;
+  position: relative;
+
+  &:hover {
+    background-color: orange;
+  }
+
+  .box-under-button {
+    position: absolute;
+    background-color: $primary-color;
+    border-radius: 16px;
+    padding: 8px;
+    bottom: -16px;
+    .label {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+
+  .shape {
+    background: #3d3d3d;
+    height: 100px;
+    width: 100px;
+    &.arrow-left {
+      clip-path: polygon(0 50%, 100% 100%, 100% 0);
+    }
+
+    &.arrow-right {
+      clip-path: polygon(0 100%, 100% 50%, 0 0);
+    }
+
+    &.arrow-top {
+      clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    }
+
+    &.arrow-bottom {
+      clip-path: polygon(50% 100%, 100% 0, 0 0);
+    }
+
+    &.trapezoid {
+      width: 100%;
+      clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%);
+    }
+
+    &.parallelogram {
+      width: 100%;
+      clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+    }
+
+    &.circle {
+      border-radius: 50%;
+    }
+
+    &.ellipse {
+      width: 100%;
+      clip-path: ellipse(50% 50% at 50% 50%);
+    }
+
+    &.square {
+      clip-path: inset(0 0 0 0);
+    }
+
+    &.square-2 {
+      width: 100%;
+      clip-path: inset(0 0 0 0);
+    }
+  }
+}

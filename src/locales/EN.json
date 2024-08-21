@@ -1,0 +1,18 @@
+{
+  "title": {
+    "test1": "Test 1",
+    "test2": "Test 2"
+  },
+  "description": {
+    "layout&style": "Layout & Style",
+    "form&table": "Form & Table"
+  },
+  "language": {
+    "th": "TH",
+    "en": "EN"
+  },
+  "text-button": {
+    "move-shape": "Move shape",
+    "move-position": "Move Position"
+  }
+}

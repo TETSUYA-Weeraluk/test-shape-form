@@ -1,0 +1,18 @@
+{
+  "title": {
+    "test1": "แบบทดสอบที่ 1",
+    "test2": "แบบทดสอบที่ 2"
+  },
+  "description": {
+    "layout&style": "การจัดการหน้าเว็บ",
+    "form&table": "การจัดการหน้าฟอร์ม"
+  },
+  "language": {
+    "th": "ไทย",
+    "en": "อังกฤษ"
+  },
+  "text-button": {
+    "move-shape": "เลื่อนรูปแบบ",
+    "move-position": "เปลี่ยนตำแหน่ง"
+  }
+}
