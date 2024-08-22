@@ -1,5 +1,6 @@
 export interface DataUser {
   id: string;
+  key: string;
   title: string;
   firstName: string;
   lastName: string;
@@ -14,6 +15,7 @@ export interface DataUser {
 
 export interface FormType {
   id: string;
+  key: string;
   title: string;
   firstName: string;
   lastName: string;

@@ -32,14 +32,22 @@
   },
   "form": {
     "title": "Title",
-    "firstName": "First Name",
-    "lastName": "Last Name",
+    "firstName": "Firstname",
+    "lastName": "Lastname",
     "birthday": "Birthday",
     "nationality": "Nationality",
     "citizenId": "CitizenID",
     "gender": "Gender",
     "mobile": "Mobile Phone",
     "passport": "Passport No",
-    "expectedSalary": "Expected Salary"
-  }
+    "expectedSalary": "Expected Salary",
+    "name": "Name",
+    "manage": "MANAGE"
+  },
+  "selectall": "Select All",
+  "edit": "EDIT",
+  "delete": "DELETE",
+  "home": "Home",
+  "prev": "PREV",
+  "next": "NEXT"
 }
